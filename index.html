@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unhinged Magic 8-Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unhinged Magic 8-Ball</h1>
+        <div class="ascii-art">
+            <pre>
+   _____
+  /     \
+ /_______\
+|  8-BALL  | 
+|  Ask Me  | 
+| Anything | 
+ \_______/
+            </pre>
+        </div>
+        <input type="text" id="questionInput" placeholder="Ask a yes/no question...">
+        <button onclick="shakeBall()">Shake the 8-Ball!</button>
+        <div id="answer" class="answer-box"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
